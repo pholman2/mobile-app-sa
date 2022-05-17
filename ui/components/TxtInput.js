@@ -6,5 +6,4 @@ export default function TxtInput(props){
     return(
         <TextInput style={theme.textInput} value={props.value} onChangeText={props.onChangeText} />
     ); 
-
 }
